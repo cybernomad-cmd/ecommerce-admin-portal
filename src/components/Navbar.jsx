@@ -5,7 +5,7 @@ function Navbar() {
   return (
     <nav className="navbar">
       <div className="logo">
-        ⚡ vitukali
+        ⚡vitukali
       </div>
       <div className="nav-links">
 
@@ -25,5 +25,9 @@ function Navbar() {
     </nav>
   );
 }
+
+<button onClick={() => setDarkMode(!darkMode)}>
+  Toggle Theme
+</button>
 
 export default Navbar;

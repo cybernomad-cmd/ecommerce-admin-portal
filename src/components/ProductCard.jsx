@@ -26,4 +26,8 @@ function ProductCard({ product }) {
   );
 }
 
+<Link to={`/products/${product.id}`}>
+  <button className="view-btn">View Details</button>
+</Link>
+
 export default ProductCard;

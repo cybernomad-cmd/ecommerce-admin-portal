@@ -1,33 +1,58 @@
-const BASE_URL = "http://localhost:3001/products";
+const API_URL = "http://localhost:3001/products";
 export async function getProducts() {
-  const res = await fetch(BASE_URL);
-  if (!res.ok) throw new Error("Failed to fetch products");
-  return res.json();
+  const response = await fetch(API_URL);
+
+  if (!response.ok) {
+    throw new Error("Failed to fetch products");
+  }
+
+  return response.json();
 }
 export async function getProductById(id) {
-  const res = await fetch(`${BASE_URL}/${id}`);
-  if (!res.ok) throw new Error(`Product ${id} not found`);
-  return res.json();
+  const response = await fetch(`${API_URL}/${id}`);
+
+  if (!response.ok) {
+    throw new Error("Product not found");
+  }
+
+  return response.json();
 }
-export async function createProduct(data) {
-  const res = await fetch(BASE_URL, {
+export async function createProduct(product) {
+  const response = await fetch(API_URL, {
     method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify(data),
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify(product),
   });
-  if (!res.ok) throw new Error("Failed to create product");
-  return res.json();
+
+  if (!response.ok) {
+    throw new Error("Failed to create product");
+  }
+
+  return response.json();
 }
-export async function updateProduct(id, updates) {
-  const res = await fetch(`${BASE_URL}/${id}`, {
+export async function updateProduct(id, updatedProduct) {
+  const response = await fetch(`${API_URL}/${id}`, {
     method: "PATCH",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify(updates),
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify(updatedProduct),
   });
-  if (!res.ok) throw new Error("Failed to update product");
-  return res.json();
+
+  if (!response.ok) {
+    throw new Error("Failed to update product");
+  }
+
+  return response.json();
 }
 export async function deleteProduct(id) {
-  const res = await fetch(`${BASE_URL}/${id}`, { method: "DELETE" });
-  if (!res.ok) throw new Error("Failed to delete product");
+  const response = await fetch(`${API_URL}/${id}`, {
+    method: "DELETE",
+  });
+
+  if (!response.ok) {
+    throw new Error("Failed to delete product");
+  }
 }
