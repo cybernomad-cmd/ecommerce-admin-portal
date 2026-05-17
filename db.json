@@ -1,0 +1,58 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Wireless Headphones",
+      "price": 79.99,
+      "category": "Electronics",
+      "stock": 42,
+      "description": "Premium headphones",
+      "image": "https://placehold.co/400x250?text=Headphones"
+    },
+    {
+      "id": 2,
+      "name": "Running Shoes",
+      "price": 124.95,
+      "category": "Footwear",
+      "stock": 18,
+      "description": "Comfort running shoes",
+      "image": "https://placehold.co/400x250?text=Shoes"
+    },
+    {
+      "id": 3,
+      "name": "Resistance Bands Set",
+      "price": 18.99,
+      "category": "Fitness",
+      "stock": 5,
+      "description": "Workout resistance bands",
+      "image": "https://placehold.co/400x250?text=Bands"
+    },
+    {
+      "id": 4,
+      "name": "Yoga Mat",
+      "price": 34.50,
+      "category": "Fitness",
+      "stock": 75,
+      "description": "Eco yoga mat",
+      "image": "https://placehold.co/400x250?text=Yoga+Mat"
+    },
+    {
+      "id": 5,
+      "name": "Water Bottle",
+      "price": 22.00,
+      "category": "Kitchen",
+      "stock": 200,
+      "description": "Steel insulated bottle",
+      "image": "https://placehold.co/400x250?text=Bottle"
+    },
+    {
+      "id": 6,
+      "name": "Mechanical Keyboard",
+      "price": 149.00,
+      "category": "Electronics",
+      "stock": 30,
+      "description": "RGB gaming keyboard",
+      "image": "https://placehold.co/400x250?text=Keyboard"
+    }
+  ]
+}
