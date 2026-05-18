@@ -1,3 +1,5 @@
+<img width="2878" height="1637" alt="Screenshot 2026-05-18 114012" src="https://github.com/user-attachments/assets/eed62f63-f367-401e-ab27-2ac60c402de0" />
+<img width="2878" height="1627" alt="Screenshot 2026-05-18 114035" src="https://github.com/user-attachments/assets/bb6278b5-7755-4eb8-bb3b-4b8bc5d1fa25" />
 # Ecommerce Admin Portal
 
 Modern ecommerce admin dashboard built with React + Vite.
@@ -54,18 +56,6 @@ Run development server:
 ```bash
 npm run dev
 ```
-
----
-
-## Screenshots
-
-### Products Page
-
-_Add screenshots here later_
-
-### Add Product Page
-
-_Add screenshots here later_
 
 ---
 
