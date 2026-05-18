@@ -1,16 +1,74 @@
-# React + Vite
+# Ecommerce Admin Portal
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Modern ecommerce admin dashboard built with React + Vite.
 
-Currently, two official plugins are available:
+## Live Website
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🔗 https://ecommerce-admin-portal-beta.vercel.app
 
-## React Compiler
+## Live API
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🔗 https://ecommerce-admin-api-kd3m.onrender.com/products
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Features
+
+- Add products
+- Product categories
+- Search products
+- Responsive dashboard
+- Live API integration
+- CRUD architecture
+
+---
+
+## Tech Stack
+
+- React
+- Vite
+- CSS
+- React Router
+- JSON Server
+- Render
+- Vercel
+
+---
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/cybernomad-cmd/ecommerce-admin-portal.git
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run development server:
+
+```bash
+npm run dev
+```
+
+---
+
+## Screenshots
+
+### Products Page
+
+_Add screenshots here later_
+
+### Add Product Page
+
+_Add screenshots here later_
+
+---
+
+## Author
+
+Leon Muigai

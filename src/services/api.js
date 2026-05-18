@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:3001/products";
+const API_URL = "https://ecommerce-admin-api-kd3m.onrender.com/products";
 export async function getProducts() {
   const response = await fetch(API_URL);
 
