@@ -56,9 +56,3 @@ Run development server:
 ```bash
 npm run dev
 ```
-
----
-
-## Author
-
-Leon Muigai
